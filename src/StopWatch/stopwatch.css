@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(194, 191, 191);
+    font-family: monospace;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(56, 4, 13);
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px rgb(77, 76, 76);
+}
+
+.display{
+    font-family: monospace;
+    font-size: 3rem;
+    color: rgb(88, 44, 44);
+    font-weight: 500;
+    text-shadow: 5px 5px 5px rgb(233, 223, 223);
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 150px;
+    height: 50px;
+}
+
+.start-button{
+    background-color: rgb(141, 11, 11);
+    transition: 0.5s ease-out;
+}
+
+.start-button:hover{
+    background-color: rgba(182, 11, 11, 0.767);
+}
+.stop-button{
+    background-color: rgb(18, 100, 1);
+    transition: 0.5s ease-out;
+}
+
+.stop-button:hover{
+    background-color: rgba(17, 100, 1, 0.747);
+}
+.reset-button{
+    background-color: rgb(48, 51, 48);
+    transition: 0.5s ease-out;
+}
+
+.reset-button:hover{
+    background-color: rgba(48, 51, 48, 0.788);
+}
+
